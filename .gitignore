@@ -1,0 +1,14 @@
+# 忽略编译出来的二进制文件 (包括旧名字和新名字)
+net-mon
+netmon
+netmon-static
+
+# 忽略 eBPF 编译产生的中间对象文件 (二进制 blob，不要上传)
+*.o
+
+# 忽略编辑器配置
+.vscode/
+.idea/
+
+# 可选：如果你希望别人必须自己运行 go generate，可以把下面这行解开
+# bpf_bpfel.go
