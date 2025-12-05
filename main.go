@@ -24,7 +24,7 @@ var db = make(map[uint32]*model.ProcessEntity)
 
 // 历史数据切片 (用于绘制底部波形图)
 // 初始化长度为 0，让图表从左向右自然生长，避免出现 "延迟感"
-const historySize = 60 
+const historySize = 90 
 var txHistory = make([]float64, 0)
 var rxHistory = make([]float64, 0)
 
