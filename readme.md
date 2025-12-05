@@ -34,7 +34,7 @@
 
 ### 方式一：直接运行 (推荐)
 
-直接从 [Releases 页面](https://github.com/YOUR_USERNAME/netmon/releases) 下载最新版本的静态编译文件 `netmon-static`，它可以在任何现代 Linux 发行版上直接运行：
+直接从 [Releases 页面](https://github.com/dswxx/netmon/releases/tag/v1.0.0) 下载最新版本的静态编译文件 `netmon-static`，它可以在任何现代 Linux 发行版上直接运行：
 
 ```bash
 # 赋予执行权限
